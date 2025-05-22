@@ -9,6 +9,9 @@ import { Form, FormField, FormInput } from "@/components/ui/form";
 import { Text } from "@/components/ui/text";
 import { H1 } from "@/components/ui/typography";
 import { useAuth } from "@/context/supabase-provider";
+import { router } from 'expo-router';
+import React from "react";
+
 
 const formSchema = z
 	.object({
@@ -54,6 +57,7 @@ export default function SignUp() {
 			await signUp(data.email, data.password);
 
 			form.reset();
+			router.push("/conversations");
 		} catch (error: Error | any) {
 			console.error(error.message);
 		}
