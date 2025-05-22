@@ -1,4 +1,4 @@
-# Expo Supabase Starter
+# Chatgpt with  Expo Supabase Starter
 
 ![social-preview-dark](https://github.com/user-attachments/assets/9697a7da-10aa-4661-bb76-b5bc0dd611f0)
 
