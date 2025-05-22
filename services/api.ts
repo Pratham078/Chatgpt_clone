@@ -3,7 +3,7 @@
  */
 
 // Replace with your actual API key
-const API_KEY = "AIzaSyAN7zIhqCjI7mfbvwyujoIyXD3CwZytX4E";
+const API_KEY = "";
 const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
 
 export interface FileAttachment {

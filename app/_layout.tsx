@@ -5,6 +5,7 @@ import { Stack } from "expo-router";
 import { AuthProvider } from "@/context/supabase-provider";
 import { useColorScheme } from "@/lib/useColorScheme";
 import { colors } from "@/constants/colors";
+import React from "react";
 
 export default function AppLayout() {
 	const { colorScheme } = useColorScheme();
